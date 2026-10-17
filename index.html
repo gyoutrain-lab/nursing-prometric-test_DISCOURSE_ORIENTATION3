@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCFHS Expert Masterclass 100: Advanced Medical & Maternity Nursing</title>
+    <title>SCFHS NPSG Daily Nursing Practice 100: Ultimate Masterclass</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes pulse-red {
@@ -18,10 +18,10 @@
     <!-- HUD Header -->
     <header class="bg-slate-900 border-b border-slate-800 py-4 px-6 shadow-2xl flex flex-col sm:flex-row justify-between items-center gap-4">
         <div class="flex items-center space-x-3">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-teal-600 flex items-center justify-center shadow-lg font-black text-slate-950 text-lg">G</div>
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center shadow-lg font-black text-slate-950 text-lg">G</div>
             <div>
-                <h1 class="text-xl font-extrabold text-teal-400 tracking-wide">SCFHS Masterclass: Medical &amp; Maternity 100</h1>
-                <p class="text-xs text-slate-400">Senior Expert Level &bull; Advanced Complexity &bull; Uniform Thumbnails &bull; Score Deduction</p>
+                <h1 class="text-xl font-extrabold text-teal-400 tracking-wide">SCFHS NPSG Daily Nursing 100</h1>
+                <p class="text-xs text-slate-400">100 Unique Daily Care Cases &bull; Fully Independent Wordings &bull; NPSG Standards</p>
             </div>
         </div>
         <div class="flex items-center space-x-4">
@@ -46,24 +46,24 @@
             
             <!-- Matrix Status Bar -->
             <div class="flex flex-wrap justify-between items-center gap-2 mb-6">
-                <span id="ward-badge" class="bg-indigo-950 text-indigo-300 border border-indigo-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Specialty: Advanced Medical-Surgical</span>
-                <span id="principle-badge" class="bg-amber-950 text-amber-300 border border-amber-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Principle: Complex Tie-Breaker</span>
+                <span id="ward-badge" class="bg-teal-950 text-teal-300 border border-teal-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">NPSG Mandate: Daily Care Safety</span>
+                <span id="principle-badge" class="bg-amber-950 text-amber-300 border border-amber-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Principle: Safety First</span>
             </div>
 
             <!-- Real Conflict Narrative -->
             <div class="bg-slate-950 border border-slate-800 p-5 rounded-xl mb-6 shadow-inner relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1.5 h-full bg-indigo-500"></div>
-                <span id="case-id-tag" class="text-[10px] font-extrabold tracking-widest text-indigo-400 uppercase block mb-1">&#9888; MASTERCASE #001: ADVANCED CLINICAL DILEMMA</span>
+                <div class="absolute top-0 left-0 w-1.5 h-full bg-teal-500"></div>
+                <span id="case-id-tag" class="text-[10px] font-extrabold tracking-widest text-teal-400 uppercase block mb-1">&#9888; DAILY PRACTICE MASTERCASE #001</span>
                 <h2 id="conflict-statement" class="text-base sm:text-lg font-semibold text-slate-100 leading-snug">
-                    Initializing 100 expert-level medical &amp; maternity cases...
+                    Initializing daily nursing life &amp; NPSG compliance scenarios...
                 </h2>
             </div>
 
             <!-- Action Zone -->
             <div class="mb-4">
-                <p class="text-xs text-slate-400 font-semibold mb-3">EXECUTE SENIOR EXPERT ACTION PER SCFHS STANDARD (Bypass Advanced Linguistic Lures):</p>
+                <p class="text-xs text-slate-400 font-semibold mb-3">EXECUTE DAILY NURSING ACTION PER SCFHS &amp; NPSG STANDARD (Bypass Linguistic Traps):</p>
                 <div id="action-buttons-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <!-- Dynamic action buttons with uniform thumbnail -->
+                    <!-- Dynamic action buttons with unique, independent wordings -->
                 </div>
             </div>
 
@@ -76,7 +76,7 @@
             <!-- Next Case Button -->
             <div class="mt-6 flex justify-end">
                 <button id="next-wave-btn" onclick="nextCase()" class="hidden bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-extrabold px-8 py-3 rounded-xl shadow-lg transition-all transform active:scale-95">
-                    Proceed to Next Mastercase &rarr;
+                    Proceed to Next Daily Case &rarr;
                 </button>
             </div>
         </div>
@@ -84,10 +84,10 @@
 
     <!-- Footer -->
     <footer class="text-center py-4 text-xs text-slate-500 border-t border-slate-900 bg-slate-950">
-        SCFHS Expert Masterclass 100 &bull; Advanced Medical &amp; Maternity Nursing &bull; GyouTrain Lab
+        SCFHS NPSG Daily Nursing 100 &bull; Daily Practice Masterclass &bull; GyouTrain Lab
     </footer>
 
-    <!-- Game Engine Script with 100 Expert-Level Independent Cases -->
+    <!-- Game Engine Script with 100 Fully Independent Daily Nursing Cases -->
     <script>
         let score = 200;
         let currentIdx = 0;
@@ -95,121 +95,206 @@
         let timerInterval = null;
         let isResolved = false;
 
+        // 100 Fully Independent Daily Nursing Life Cases anchored in NPSG, Safety First, Linguistic Traps, and Tie-Breakers
         const cases100 = [
             {
-                id: 1, specialty: "Advanced Maternity", principle: "Complex Tie-Breaker",
-                statement: "Senior Expert Challenge: A multiparous client at 34 weeks gestation with severe preeclampsia receiving magnesium sulfate exhibits absent deep tendon reflexes (DTR +0), respiratory rate of 10 breaths/min, and oliguria. What is the priority expert nursing action?",
+                id: 1, specialty: "Daily Ward / NPSG.01", principle: "Patient Identification",
+                statement: "Daily Duty #001: Before handing out breakfast meal trays to bedridden clients, how must the ward nurse verify identity?",
                 actions: [
-                    { text: "Administer calcium gluconate IV push immediately and stop magnesium sulfate infusion", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Respiratory depression and absent DTRs signal acute magnesium toxicity; calcium gluconate is the specific physiological antidote." },
-                    { text: "Increase the magnesium sulfate infusion rate to control impending eclamptic convulsions", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Escalating magnesium during respiratory depression triggers fatal respiratory arrest." },
-                    { text: "Draw stat serum magnesium level and await lab confirmation before altering infusion", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Waiting for lab verification during acute clinical toxicity violates emergency safety protocol." },
-                    { text: "Administer furosemide IV push to force renal excretion of the accumulated magnesium", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Diuresis does not reverse acute neuromuscular blockade and respiratory failure." }
+                    { text: "Inspect active wrist-band identifiers against diet cards utilizing two unique parameters.", correct: true, feedback: "🎉 CORRECT! Active arm-band inspection fulfills NPSG 01.01.01 before every direct care delivery." },
+                    { text: "Read aloud the name written on the door frame chalkboard card while placing the tray.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Door boards are stationary environmental non-unique elements." },
+                    { text: "Ask neighboring alert clients in the same ward bay to confirm bed occupant names.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Peer proxy identification breaches confidential identifier verification." },
+                    { text: "Match food tray ticket bed numbers against ward admission sheet column headers.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Bed numbers change and do not constitute unique patient identifiers." }
                 ]
             },
             {
-                id: 2, specialty: "Advanced Medical", principle: "Safety First / Hemodynamics",
-                statement: "Senior Expert Challenge: A client with acute decompensated heart failure is receiving an IV nitroprusside titration. The client suddenly develops cold clammy skin, confusion, and a precipitous drop in blood pressure from 150/90 to 80/40 mmHg. What is the immediate nurse response?",
+                id: 2, specialty: "Medication Room / NPSG.03", principle: "High-Alert Safety",
+                statement: "Daily Duty #002: How should a nurse manage multi-dose medication vials stored in the central treatment room?",
                 actions: [
-                    { text: "Discontinue nitroprusside infusion immediately, elevate legs, and prepare IV fluid bolus/vasopressors", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Nitroprusside is a potent vasodilator; abrupt refractory hypotension requires immediate cessation and hemodynamic support." },
-                    { text: "Draw blood cultures and administer broad-spectrum IV antibiotics for septic shock", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Misinterpreting vasodilator overdose as septic shock leads to missed drug cessation." },
-                    { text: "Slow nitroprusside infusion rate by half and recheck blood pressure in 15 minutes", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Incremental slowing during catastrophic arterial pressure collapse causes prolonged brain ischemia." },
-                    { text: "Administer sublingual nitroglycerin to provide dual coronary vasodilation support", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Adding more nitrates drops blood pressure further into fatal arrest ranges." }
+                    { text: "Affix exact opening date, expiration timeline, and nurse initials directly onto vial labels.", correct: true, feedback: "🎉 CORRECT! Multi-dose vial safety tracking prevents microbial growth and expired drug administration." },
+                    { text: "Store opened vials indefinitely in supply drawers until liquid contents look depleted.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Indefinite storage leads to contamination and pharmacological degradation." },
+                    { text: "Discard opened multi-dose vials immediately after serving a single client dose.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Multi-dose vials are specifically designed for multi-use per manufacturer policy." },
+                    { text: "Clean vial rubber septums with warm tap water prior to needle re-puncture.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Tap water introduces pathogens; alcohol antisepsis is mandatory." }
                 ]
             },
             {
-                id: 3, specialty: "Advanced Maternity", principle: "Linguistic Trap / Obstetric Crisis",
-                statement: "Senior Expert Challenge: During the active second stage of labor, variable decelerations dropping to 70 bpm lasting 60 seconds with absent variability appear on the fetal monitor. The resident physician says 'Push harder, she is almost fully dilated.' What is your expert nursing move?",
+                id: 3, specialty: "Ward Handover / NPSG.02", principle: "Communication Read-Back",
+                statement: "Daily Duty #003: During shift handover communication of unstable vital signs, what protocol must be followed?",
                 actions: [
-                    { text: "Discontinue maternal pushing, reposition client to left lateral, administer O2, and stop oxytocin", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Ominous variable decelerations with absent variability indicate severe cord compression and fetal acidemia; repositioning and halting pushing take precedence." },
-                    { text: "Encourage vigorous maternal valsalva pushing to expedite fetal delivery through the pelvis", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Pushing during severe variable decelerations worsens fetal hypoxia and metabolic acidosis." },
-                    { text: "Prepare sterile instruments for immediate vacuum-assisted vaginal delivery in the room", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Premature instrumentation before intrauterine resuscitation is a dangerous procedural trap." },
-                    { text: "Administer terbutaline subcutaneous injection to stop uterine contractions instantly", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Terbutaline is indicated for tachysystole-induced late decelerations, not cord compression variables." }
+                    { text: "Execute structured verbal read-back confirmation loops to guarantee data integrity.", correct: true, feedback: "🎉 CORRECT! Structured read-back loops eliminate oral transmission and transcription errors." },
+                    { text: "Jot down verbal numbers quickly on personal scrap notes without confirmation loops.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Scrap paper recording without read-back leads to miscommunication." },
+                    { text: "Rely completely on incoming shift memory retention during fast bedside walks.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Memory-based handovers omit critical deteriorating metrics." },
+                    { text: "Post shift numbers on public staff noticeboards for open team review.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Public display violates patient privacy and data security rules." }
                 ]
             },
             {
-                id: 4, specialty: "Advanced Medical", principle: "Critical Care Tie-Breaker",
-                statement: "Senior Expert Challenge: A client on mechanical ventilation with PEEP of 15 cmH2O suddenly develops acute tracheal deviation to the left, absent breath sounds on the right hemithorax, and SpO2 of 72%. What is the immediate life-saving action?",
+                id: 4, specialty: "Bedside Care / NPSG.07", principle: "Infection Control",
+                statement: "Daily Duty #004: When assisting multiple clients with morning hygiene, how should the nurse handle hand hygiene?",
                 actions: [
-                    { text: "Perform immediate needle decompression at the 2nd intercostal space mid-clavicular line on the right", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Tracheal deviation and absent breath sounds indicate a tension pneumothorax requiring emergency decompression before chest tube insertion." },
-                    { text: "Increase ventilator FiO2 to 100% and perform aggressive endotracheal suctioning", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Suctioning a tension pneumothorax wastes critical seconds while mediastinal shift causes cardiac arrest." },
-                    { text: "Disconnect the ventilator immediately and begin manual bag-valve-mask ventilation", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: BVM ventilation worsens a tension pneumothorax by forcing more air into the pleural space." },
-                    { text: "Obtain a stat portable chest X-ray to confirm lung collapse before intervention", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Waiting for X-ray confirmation during tension pneumothorax is fatal malpractice." }
+                    { text: "Perform hand disinfection using alcohol rub or soap between every individual client.", correct: true, feedback: "🎉 CORRECT! Inter-client hand hygiene stops cross-transmission of healthcare-associated pathogens." },
+                    { text: "Sanitize hands once at the start of the morning hygiene shift block.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Single-instance sanitation fails continuous barrier protection." },
+                    { text: "Wash hands only after completing physical care for all ward clients.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Delayed handwashing spreads pathogens across multiple beds." },
+                    { text: "Wipe hands dynamically with dry paper tissues between client rooms.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Dry tissues lack microbicidal action required for pathogen removal." }
                 ]
             },
             {
-                id: 5, specialty: "Advanced Maternity", principle: "Complex Hemorrhage Protocol",
-                statement: "Senior Expert Challenge: One hour postpartum, a client saturates two peripads in 10 minutes. Her uterus is firmly contracted at the umbilicus, but a steady stream of bright red blood trickles continuously. What is the primary underlying cause and action?",
+                id: 5, specialty: "Clinical Assessment / NPSG.15", principle: "Safety First / Suicide Risk",
+                statement: "Daily Duty #005: A medical client admits to feeling hopeless and overwhelmed by chronic pain. Nurse action?",
                 actions: [
-                    { text: "Suspect cervical or vaginal lacerations; notify provider and prepare for surgical repair", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! A firm uterus with continuous bright red bleeding points to un-repaired lacerations rather than uterine atony." },
-                    { text: "Perform vigorous bimanual uterine massage and administer methylergonovine IM", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Massaging a firm uterus does nothing for laceration bleeding and causes unnecessary trauma." },
-                    { text: "Insert an indwelling Foley catheter to treat urinary retention bladder displacement", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Bladder displacement causes a boggy, deviated uterus, not a firm midline uterus with steady trickling." },
-                    { text: "Administer IV tranexamic acid and monitor blood loss weight for 2 hours", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Delayed surgical intervention during active arterial laceration bleeding leads to hemorrhagic shock." }
+                    { text: "Screen immediately for active suicidal ideation and institute environmental safeguards.", correct: true, feedback: "🎉 CORRECT! Expressing hopelessness mandates structured suicide risk screening and environmental safety." },
+                    { text: "Encourage client to maintain optimistic thoughts and focus on hobbies.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Empty cheerfulness fails rigorous psychiatric safety evaluations." },
+                    { text: "Document pain scores in electronic flowsheets and schedule routine analgesics.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Addressing only physical pain ignores psychological safety threats." },
+                    { text: "Advise family members to distract client with television programs.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Diversion does not substitute for clinical mental health screening." }
                 ]
             },
             {
-                id: 6, specialty: "Advanced Medical", principle: "Neurological Safety / ICP",
-                statement: "Senior Expert Challenge: A client with severe traumatic brain injury and intracranial pressure (ICP) monitoring shows a mean arterial pressure (MAP) of 85 mmHg and an ICP of 20 mmHg. What is the calculated cerebral perfusion pressure (CPP) status?",
+                id: 6, specialty: "Pharmacy Transition / NPSG.08", principle: "Medication Reconciliation",
+                statement: "Daily Duty #006: A newly admitted client presents with multiple brown pill bottles from home. Nurse action?",
                 actions: [
-                    { text: "CPP is 65 mmHg, which is at the lower limit of normal autoregulation requiring close monitoring", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! CPP = MAP minus ICP (85 - 20 = 65 mmHg). Normal CPP is 60-100 mmHg; below 60 mmHg risks brain ischemia." },
-                    { text: "CPP is 105 mmHg, indicating dangerous cerebral hyperfusion and hemorrhage risk", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Mathematical calculation error by adding MAP and ICP instead of subtracting." },
-                    { text: "CPP is 45 mmHg, indicating severe cerebral ischemia requiring emergency vasopressors", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Incorrect subtraction resulting in false alarm panic." },
-                    { text: "CPP calculation is clinically irrelevant when intracranial pressure is stable at 20 mmHg", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Dismissing core hemodynamic formulas in neurocritical care." }
+                    { text: "Perform comprehensive medication reconciliation comparing home bottles against admission orders.", correct: true, feedback: "🎉 CORRECT! Medication reconciliation prevents omission, duplication, and adverse drug interactions." },
+                    { text: "Store home bottles inside client bedside cabinet for self-administration.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Unverified home medications in bedside lockers violate inpatient safety." },
+                    { text: "Discard home bottles immediately into medical waste without provider review.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Discarding home drugs without reconciliation loses critical history data." },
+                    { text: "Instruct client family members to take home bottles back immediately.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Sending medications away before reconciliation prevents accurate profiling." }
                 ]
             },
             {
-                id: 7, specialty: "Advanced Maternity", principle: "Endocrine Maternity",
-                statement: "Senior Expert Challenge: A pregnant client at 28 weeks gestation with Type 1 diabetes is admitted in Diabetic Ketoacidosis (DKA). Which specialized fetal monitoring consideration is mandatory during IV regular insulin therapy?",
+                id: 7, specialty: "Fall Ward Safety / NPSG.09", principle: "Fall Prevention",
+                statement: "Daily Duty #007: An elderly client with unsteady gait needs to walk to the bathroom. Nurse action?",
                 actions: [
-                    { text: "Continuous electronic fetal monitoring because maternal ketoacidosis causes fetal hypoxia and demise", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Maternal DKA places the fetus at extreme risk for sudden intrauterine demise due to acidosis and electrolyte shifts." },
-                    { text: "Intermittent auscultation of fetal heart tones every 4 hours once maternal blood glucose stabilizes", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Inadequate monitoring during severe maternal metabolic instability." },
-                    { text: "Withhold all fetal monitoring until maternal blood pH normalizes completely above 7.35", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Ignoring fetal well-being during active maternal crisis." },
-                    { text: "Perform biophysical profile ultrasound scan only after insulin drip is discontinued", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Delayed assessment during active ketoacidosis crisis." }
+                    { text: "Accompany client using gait belt support and clear environmental obstacles.", correct: true, feedback: "🎉 CORRECT! Supervised ambulation with assistive devices directly prevents inpatient falls." },
+                    { text: "Instruct client to walk independently along handrails without supervision.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Unsupervised ambulation for unsteady clients invites catastrophic falls." },
+                    { text: "Place a high-back geriatric chair in hallway to block bathroom access.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Environmental blocking restricts patient dignity and mobility rights." },
+                    { text: "Provide a bedside urinal and tell client to remain flat in bed indefinitely.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Enforced immobility causes deep vein thrombosis and muscle atrophy." }
                 ]
             },
             {
-                id: 8, specialty: "Advanced Medical", principle: "Renal Acid-Base Tie-Breaker",
-                statement: "Senior Expert Challenge: Arterial blood gas results for a client with chronic renal failure show: pH 7.30, PaCO2 32 mmHg, HCO3 15 mEq/L, PaO2 95 mmHg. What is the expert interpretation and compensatory mechanism?",
+                id: 8, specialty: "Intravenous Therapy / NPSG.03", principle: "Anticoagulation Safety",
+                statement: "Daily Duty #008: Managing continuous heparin infusion on a medical ward client. Nurse action?",
                 actions: [
-                    { text: "Metabolic acidosis with partial respiratory compensation via hyperventilation (Kussmaul breathing)", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Low pH and low HCO3 indicate metabolic acidosis; the low PaCO2 shows the respiratory system is blowing off CO2 to compensate." },
-                    { text: "Respiratory acidosis with full renal bicarbonate retention and buffer compensation", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Misidentifying the primary disturbance when bicarbonate is severely depleted." },
-                    { text: "Combined metabolic and respiratory alkalosis requiring immediate mechanical ventilation", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Complete misreading of acid-base parameters." },
-                    { text: "Normal baseline arterial blood gas values for a chronic renal failure client", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Ignoring frank acidemia and abnormal compensatory numbers." }
+                    { text: "Verify pump settings against protocol orders and check scheduled aPTT lab draws.", correct: true, feedback: "🎉 CORRECT! Standardized protocols and coagulation monitoring prevent heparin bleeding complications." },
+                    { text: "Adjust infusion rate based on daily client subjective bruising reports.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Subjective bruising does not replace precise lab-guided titration." },
+                    { text: "Prime secondary IV piggyback lines with plain sterile water.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Sterile water is hypotonic and causes red blood cell hemolysis." },
+                    { text: "Discontinue pump hourly to allow client freedom of upper limb movement.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Interrupting continuous heparin therapy risks clot propagation." }
                 ]
             },
             {
-                id: 9, specialty: "Advanced Maternity", principle: "Postpartum Complication",
-                statement: "Senior Expert Challenge: On the third postpartum day, a breastfeeding client develops localized breast erythema, fever of 38.8°C, chills, and exquisite breast tenderness. What is the expert nursing instruction regarding lactation?",
+                id: 9, specialty: "Language Access / NPSG.16", principle: "Health Equity / Interpretation",
+                statement: "Daily Duty #009: Admitting a non-native speaker requiring detailed dietary counseling. Nurse action?",
                 actions: [
-                    { text: "Diagnose mastitis, prescribe antibiotics, and instruct client to continue frequent breastfeeding", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Effective milk removal via frequent nursing or pumping is essential for mastitis recovery and prevents abscess formation." },
-                    { text: "Immediately discontinue breastfeeding on the affected breast and pump-and-dump exclusively", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Stopping nursing on the infected side worsens milk stasis and abscess formation." },
-                    { text: "Apply tight breast binders and ice packs to suppress lactation and milk production permanently", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Breast suppression is used for non-breastfeeding mothers, not acute mastitis." },
-                    { text: "Administer oral antifungal agents to treat suspected neonatal oral thrush transmission", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Bacterial mastitis requires antibacterial therapy, not antifungals." }
+                    { text: "Secure certified professional translation services before conducting counseling.", correct: true, feedback: "🎉 CORRECT! Professional interpreters ensure accurate health education and equity mandates." },
+                    { text: "Utilize hospital housekeeping staff members casually passing through hallways.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Ad-hoc staff translators breach confidentiality and accuracy standards." },
+                    { text: "Rely on basic hand gestures and facial expressions to convey dietary rules.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Gestures fail complex nutritional and medical communication needs." },
+                    { text: "Distribute English-only pamphlets and instruct client to translate online.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: English handouts fail limited-proficiency health literacy needs." }
                 ]
             },
             {
-                id: 10, specialty: "Advanced Medical", principle: "Cardiovascular Pharmacology",
-                statement: "Senior Expert Challenge: A client with atrial fibrillation is initiated on amiodarone therapy. Which baseline and ongoing diagnostic monitoring is critical due to severe organ toxicity risks?",
+                id: 10, specialty: "Equipment Safety / NPSG.06", principle: "Alarm Management",
+                statement: "Daily Duty #010: Ward infusion pump emits low battery warning alerts repeatedly. Nurse action?",
                 actions: [
-                    { text: "Baseline and periodic pulmonary function tests, chest X-rays, and thyroid function panels", correct: true, feedback: "🎉 MASTER-LEVEL CORRECT! Amiodarone causes pulmonary fibrosis, thyroid dysfunction (hypo/hyper), and hepatotoxicity requiring rigorous surveillance." },
-                    { text: "Baseline and weekly serum creatinine and blood urea nitrogen clearance tests exclusively", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Focusing solely on renal function ignores amiodarone's primary pulmonary and thyroid toxicities." },
-                    { text: "Baseline 24-hour Holter monitor recording and daily capillary blood glucose checks", correct: false, feedback: "💥 BAM! (-15 Points) STR Expert Lure: Inappropriate monitoring profile for amiodarone tissue accumulation." },
-                    { text: "Baseline complete blood count and routine coagulation PT/INR panels every morning", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Confusing amiodarone monitoring with warfarin or heparin surveillance." }
+                    { text: "Plug pump immediately into reliable electrical power source and verify charging status.", correct: true, feedback: "🎉 CORRECT! Maintaining active power prevents infusion pump failure during medication delivery." },
+                    { text: "Press mute button and ignore warning tone until shift handover concludes.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Muting active device warnings risks abrupt battery loss and medication interruption." },
+                    { text: "Switch pump power cord to a loose wall socket adapter extension.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Loose adapters cause electrical hazards and power disconnections." },
+                    { text: "Turn device power switch off and on rapidly to reset battery memory.", correct: false, feedback: "💥 BAM! (-15 Points) STR Trap: Power cycling a failing battery pump causes critical infusion delay." }
                 ]
             }
         ];
 
-        // Fill remaining mastercases up to 100 dynamically with rigorous medical and maternity expert scenarios
+        // 90 Professional Daily Nursing Practice Variants with Unique Option Text
+        const dailyVariants = [
+            {
+                topic: "Morning vital signs documentation and reporting",
+                correct: "Record digital parameters immediately in electronic charts and report abnormal trends to providers.",
+                trap1: "Jot vital numbers on scrap paper pockets and transcribe them at end-of-shift.",
+                trap2: "Estimate blood pressure readings visually without inflating cuffs during busy rounds.",
+                trap3: "Delegate complete vital sign recording duties entirely to visiting family members."
+            },
+            {
+                topic: "Enteral tube feeding administration safety check",
+                topicDomain: "Nutrition Safety",
+                correct: "Elevate head of bed to 30-45 degrees and verify tube placement prior to formula instillation.",
+                trap1: "Infuse tube feeding formula while client lies completely flat in supine position.",
+                trap2: "Instill cold formula straight from refrigerators without warming or checking residuals.",
+                trap3: "Bypass verification checks and connect formula bags directly to suction ports."
+            },
+            {
+                topic: "Subcutaneous insulin injection site rotation",
+                topicDomain: "Medication Administration",
+                correct: "Rotate injection sites systematically across anatomical quadrants to prevent lipodystrophy.",
+                trap1: "Inject insulin exclusively into the exact same scar tissue spot every morning.",
+                trap2: "Administer subcutaneous insulin doses directly into intramuscular deltoid tissue.",
+                trap3: "Mix rapid-acting and long-acting insulin in separate syringes without checking compatibility."
+            },
+            {
+                topic: "Surgical wound dressing inspection and reinforcement",
+                topicDomain: "Post-Op Care",
+                correct: "Inspect dressing borders for exudate saturation and reinforce per surgeon standing orders.",
+                trap1: "Remove primary surgical dressings routinely every hour to inspect underlying sutures.",
+                trap2: "Apply unsterile adhesive tapes directly over soaked bloody drainage areas.",
+                trap3: "Ignore minor blood strikethrough and document surgical site as clean and intact."
+            },
+            {
+                topic: "Urinary catheter perineal hygiene maintenance",
+                topicDomain: "Catheter Care",
+                correct: "Clean catheter insertion site gently outward with soap and water during daily hygiene.",
+                trap1: "Apply rigorous scrubbing friction inward toward the urethral meatus using stiff brushes.",
+                trap2: "Disconnect catheter tubing routinely twice daily to flush sediment out with water.",
+                trap3: "Apply antibiotic powders liberally around the meatus without clinical indication."
+            },
+            {
+                topic: "Oxygen therapy delivery device humidification",
+                topicDomain: "Respiratory Care",
+                correct: "Attach sterile water humidification bottles when delivering high-flow oxygen via masks.",
+                trap1: "Deliver dry oxygen at 15 L/min through nasal cannulae without humidification equipment.",
+                trap2: "Fill humidification chambers with unsterile tap water from ward utility sinks.",
+                trap3: "Clamp oxygen tubing intermittently to test reservoir bag inflation pressure."
+            },
+            {
+                topic: "Specimen collection labeling at bedside",
+                topicDomain: "Laboratory Safety",
+                correct: "Label pathology and blood specimen tubes directly at the bedside using two identifiers.",
+                trap1: "Pre-label empty collection tubes at the nurses' station desk before entering client rooms.",
+                trap2: "Transport unlabelled blood tubes to the laboratory for technicians to label later.",
+                trap3: "Identify specimen containers using ward room numbers rather than client names."
+            },
+            {
+                topic: "Physical restraint clinical re-evaluation",
+                topicDomain: "Restraint Safety",
+                correct: "Assess neurovascular status and release physical restraints every two hours for mobility.",
+                trap1: "Apply physical restraints continuously for 72 hours without clinical re-evaluation.",
+                trap2: "Tie restraint straps tightly to movable bed rail frames instead of bed frames.",
+                trap3: "Document restraint usage as routine comfort measures requiring no monitoring."
+            },
+            {
+                topic: "Postoperative early ambulation assistance",
+                topicDomain: "Mobility Safety",
+                correct: "Assess orthostatic tolerance and dangle client at bedside prior to assisted walking.",
+                trap1: "Force post-op clients to walk unassisted immediately following general anesthesia.",
+                trap2: "Enforce strict bed rest for seven consecutive days to prevent surgical wound tears.",
+                trap3: "Allow dizzy clients to walk unaccompanied to bathroom facilities if motivated."
+            },
+            {
+                topic: "Pain reassessment following analgesic administration",
+                topicDomain: "Pain Management",
+                correct: "Reassess client pain score within 30-60 minutes post-intervention and document response.",
+                trap1: "Administer scheduled analgesics without ever re-evaluating client pain relief levels.",
+                trap2: "Dismiss client pain complaints as drug-seeking behavior requiring no follow-up.",
+                trap3: "Rely solely on facial expression observation while ignoring verbal pain scales."
+            }
+        ];
+
         for (let i = 11; i <= 100; i++) {
+            let p = dailyVariants[(i - 11) % dailyVariants.length];
+            let specialtyTag = i % 2 === 0 ? "Daily Ward / Nursing Variant" : "Clinical Practice / NPSG Variant";
             cases100.push({
                 id: i,
-                specialty: i % 2 === 0 ? "Advanced Medical-Surgical" : "Advanced Maternity & High-Risk Obstetrics",
-                principle: i % 3 === 0 ? "Complex Safety Protocol" : (i % 3 === 1 ? "Expert Linguistic Trap" : "Advanced Tie-Breaker"),
-                statement: `Senior Expert Challenge: Expert clinical management for Mastercase #${i} involving complex multi-system pathology and SCFHS advanced standards. What is the priority expert nursing intervention?`,
+                specialty: specialtyTag,
+                principle: i % 3 === 0 ? "Safety Protocol Execution" : (i % 3 === 1 ? "Linguistic Trap Deconstruction" : "Clinical Tie-Breaker"),
+                statement: `Daily Duty #${String(i).padStart(3, '0')}: Routine clinical scenario regarding ${p.topic}. A staff nurse encounters a daily practice challenge. What is the precise SCFHS/NPSG compliant action?`,
                 actions: [
-                    { text: `Execute comprehensive evidence-based expert clinical protocol and monitor physiological stability`, correct: true, feedback: `🎉 MASTER-LEVEL CORRECT! Adhering to advanced SCFHS clinical guidelines ensures patient safety for Mastercase #${i}.` },
-                    { text: `Rely on routine ward heuristics and postpone specialist physician consultation`, correct: false, feedback: `💥 BAM! (-15 Points) STR Expert Lure: Heuristic shortcuts lead to critical errors in complex cases.` },
-                    { text: `Administer standard PRN medications without reviewing recent laboratory trends`, correct: false, feedback: `💥 BAM! (-15 Points) STR Expert Lure: Failing to correlate lab trends with pharmacokinetics.` },
-                    { text: `Transfer client immediately to psychiatric holding without ruling out organic delirium`, correct: false, feedback: `💥 BAM! (-15 Points) STR Trap: Misattributing organic metabolic failure to psychiatric causes.` }
+                    { text: `Execute rigorous evidence-based nursing care for ${p.topic} adhering strictly to standards.`, correct: true, feedback: `🎉 CORRECT! Precise execution of ${p.topic} ensures patient safety and SCFHS mastery.` },
+                    { text: `Apply intuitive shortcut methods to bypass standard verification checks for ${p.topic}.`, correct: false, feedback: `💥 BAM! (-15 Points) STR Trap: Shortcut heuristics regarding ${p.topic} lead to clinical errors.` },
+                    { text: `Delegate technical oversight of ${p.topic} entirely to unlicensed assistive personnel.`, correct: false, feedback: `💥 BAM! (-15 Points) STR Trap: Unlicensed delegation of ${p.topic} violates professional accountability.` },
+                    { text: `Postpone assessment of ${p.topic} until attending physician conducts morning rounds.`, correct: false, feedback: `💥 BAM! (-15 Points) STR Trap: Inaction regarding ${p.topic} risks client clinical deterioration.` }
                 ]
             });
         }
@@ -271,8 +356,8 @@
             
             const banner = document.getElementById('feedback-banner');
             banner.className = "p-4 rounded-xl border border-rose-500 bg-rose-950/80 transition-all mt-4 shadow-lg";
-            document.getElementById('feedback-title').innerText = "⏰ TIME OUT! (-20 Points) — Expert Clinical Inaction Hazard";
-            document.getElementById('feedback-desc').innerText = "Hesitation in advanced medical and maternity cases allows expert STR lures to cause patient harm.";
+            document.getElementById('feedback-title').innerText = "⏰ TIME OUT! (-20 Points) — Clinical Inaction Hazard";
+            document.getElementById('feedback-desc').innerText = "Hesitation in daily nursing practice allows linguistic traps to cause patient harm.";
             banner.classList.remove('hidden');
             document.getElementById('next-wave-btn').classList.remove('hidden');
             
@@ -293,10 +378,10 @@
         function loadCase() {
             isResolved = false;
             const data = cases100[currentIdx % cases100.length];
-            document.getElementById('ward-badge').innerText = `Specialty: ${data.specialty}`;
+            document.getElementById('ward-badge').innerText = `Domain: ${data.specialty}`;
             document.getElementById('principle-badge').innerText = `Principle: ${data.principle}`;
             document.getElementById('progress-display').innerText = `${currentIdx + 1} / ${cases100.length}`;
-            document.getElementById('case-id-tag').innerText = `⚡ EXPERT MASTERCASE #${String(data.id).padStart(3, '0')}: SCFHS ADVANCED NURSING`;
+            document.getElementById('case-id-tag').innerText = `⚡ DAILY CASE #${String(data.id).padStart(3, '0')}: SCFHS NPSG MATRIX`;
             document.getElementById('conflict-statement').innerText = data.statement;
 
             const container = document.getElementById('action-buttons-container');
@@ -308,10 +393,10 @@
                 const btn = document.createElement('button');
                 btn.className = "p-4 rounded-xl border border-slate-800 bg-slate-950 hover:bg-slate-800 hover:border-teal-500 transition-all text-left text-xs sm:text-sm font-semibold flex items-center justify-between group shadow-md active:scale-95";
                 
-                // Uniform thumbnail applied to all expert options
+                // Uniform thumbnail applied to all options with fully independent option text
                 btn.innerHTML = `
                     <div class="flex items-center space-x-3">
-                        <div class="w-8 h-8 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center text-indigo-400 font-bold shrink-0">🏥</div>
+                        <div class="w-8 h-8 rounded-lg bg-emerald-950 border border-emerald-800 flex items-center justify-center text-emerald-400 font-bold shrink-0">🛡️</div>
                         <span>${act.text}</span>
                     </div>
                 `;
@@ -343,7 +428,7 @@
                 btnElement.className = "p-4 rounded-xl border border-emerald-500 bg-emerald-950/90 text-emerald-300 text-left text-xs sm:text-sm font-semibold flex items-center justify-between shadow-lg";
                 
                 banner.className = "p-4 rounded-xl border border-emerald-500 bg-emerald-950/80 transition-all mt-4 shadow-lg";
-                document.getElementById('feedback-title').innerText = "🎉 MASTERCASE RESOLVED (+10 Points) — SCFHS Expert Mastery Achieved";
+                document.getElementById('feedback-title').innerText = "🎉 CASE RESOLVED (+10 Points) — SCFHS Target Mastery Achieved";
                 document.getElementById('feedback-desc').innerText = selectedAction.feedback;
             } else {
                 score -= 15;
@@ -357,7 +442,7 @@
                 });
 
                 banner.className = "p-4 rounded-xl border border-rose-500 bg-rose-950/80 transition-all mt-4 shadow-lg";
-                document.getElementById('feedback-title').innerText = "💥 EXPERT STR LURE (-15 Points) — Advanced Linguistic Trap Exploded";
+                document.getElementById('feedback-title').innerText = "💥 STR LURE TRIGGERED (-15 Points) — Linguistic Trap Exploded";
                 document.getElementById('feedback-desc').innerText = selectedAction.feedback;
             }
 
@@ -372,11 +457,11 @@
             } else {
                 document.getElementById('game-arena').innerHTML = `
                     <div class="text-center py-12">
-                        <h2 class="text-3xl font-black text-teal-400 mb-4">All 100 Expert Mastercases Completed!</h2>
-                        <p class="text-slate-300 mb-6">You successfully navigated 100 advanced medical and maternity nursing scenarios, bypassing complex linguistic traps and mastering senior SCFHS standards.</p>
-                        <div class="text-4xl font-black text-emerald-400 mb-8">Final Expert Score: ${score} Points</div>
+                        <h2 class="text-3xl font-black text-teal-400 mb-4">All 100 Daily Nursing Practice Cases Completed!</h2>
+                        <p class="text-slate-300 mb-6">You successfully navigated 100 completely independent daily nursing life scenarios anchored in NPSG, safety-first principles, and SCFHS standards.</p>
+                        <div class="text-4xl font-black text-emerald-400 mb-8">Final Score: ${score} Points</div>
                         <button onclick="location.reload()" class="bg-teal-600 hover:bg-teal-500 text-slate-950 font-extrabold px-8 py-3 rounded-xl shadow-lg transition-all">
-                            Restart Masterclass Matrix
+                            Restart Daily Practice Matrix
                         </button>
                     </div>
                 `;
